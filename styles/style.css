@@ -1,0 +1,42 @@
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+  height: 100vh;
+}
+            
+.carousel-item:nth-child(1) {
+  background-image: url('https://wallpapercat.com/w/full/b/2/f/20724-3000x1854-desktop-hd-oprah-winfrey-background-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+            
+.carousel-item:nth-child(2) {
+  background-image: url('https://image.cnbcfm.com/api/v1/image/103334946-GettyImages-474281495.jpg?v=1683390225&w=1920&h=1080');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+            
+.carousel-item:nth-child(3) {
+  background-image: url('https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2025/01/oprah-winfrey-happiness-inc.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+            
+@media (min-width: 992px) {
+  #introCarousel {
+    margin-top: -58.59px;
+  }
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+}
+
+i {
+  display: inline-block;
+  width: 30px;
+}
