@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base target="_parent">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap">
+        <link rel="stylesheet" href="https://mdbootstrap.com/api/snippets/static/download/MDB5-Free_9.0.0/css/mdb.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="/styles/journey.css">
+    </head>
+    <body>
+        <header style="z-index: 2000;">
+            <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block">
+                <div class="container-fluid">
+                    <a class="navbar-brand nav-link" target="_blank" href="/index.html">
+                        <strong>Oprah</strong>
+                    </a>
+                    <button class="navbar-toggler collapsed" type="button" data-mdb-collapse-init="" data-mdb-target="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarExample01" data-mdb-collapse-initialized="true">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/views/about.html" rel="nofollow" target="_blank">About Oprah</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/views/journey.html" target="_blank">Entrepreneurial Journey</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/views/business.html" target="_blank">Her Businesses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/views/traits.html" target="_blank">Traits & Motivation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/views/legacy.html" target="_blank">Legacy & Impact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/views/references.html" target="_blank">References</a>
+                            </li>
+                        </ul>
+                
+                        <ul class="navbar-nav list-inline">
+                            <li class="">
+                                <a class="nav-link" href="https://www.youtube.com/@Oprah" rel="nofollow" target="_blank">
+                                <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a class="nav-link" href="https://www.facebook.com/oprahwinfrey/" rel="nofollow" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://x.com/Oprah?" rel="nofollow" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="mask">
+            <div class="content">
+                <h2 class="section-title fade-in">Why She Chose Entrepreneurship</h2>
+                <p class="fade-in">Oprah sought control over her content and financial independence. Instead of being just a host, she became a media owner—producing, directing, and distributing her own content.​</p>
+    
+            <h3 class="section-title fade-in">Founding Harpo Productions</h3>
+            <p class="fade-in">In 1986, she established Harpo (Oprah spelled backwards), making her one of the few entertainers to own their production company. This move shifted the power from the networks to herself.</p>
+            <p class="fade-in">
+                <h4 class="section-title fade-in">Highlights:</h4>
+                <ul class="fade-in">
+                    <li>Negotiated full ownership of <em>The Oprah Winfrey Show</em></li>
+                    <li>Produced successful films like <em>The Color Purple and Selma</em></li>
+                    <li>Created space for diverse voices and stories</li>
+                </ul>
+            </p>
+
+            <h3 class="section-title fade-in">Transition to OWN Network</h3>
+            <p class="fade-in">In 2011, Oprah co-founded the Oprah Winfrey Network with Discovery. Although it had a rocky start, OWN eventually became a hub for empowerment-driven content.</p>
+    
+            <h3 class="section-title fade-in">Key Business Moves</h3>
+            <ul class="fade-in">
+                <li>Built multiple revenue streams: television, publishing, online, wellness</li>
+                <li>Used her brand to influence product sales and public opinion (e.g., Oprah’s Favorite Things)</li>
+                <li>Collaborated with Apple TV+ and WeightWatchers as a board member and shareholder</li>
+            </ul>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="https://mdbootstrap.com/api/snippets/static/download/MDB5-Free_9.0.0/js/mdb.umd.min.js"></script><script type="text/javascript">{}</script>
+        <script>
+            const fadeInElements = document.querySelectorAll('.fade-in');
+
+            const appearOnScroll = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+
+            fadeInElements.forEach(el => {
+                appearOnScroll.observe(el);
+            });
+        </script>
+    </body>
+</html>

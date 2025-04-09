@@ -36,6 +36,13 @@
   color: #fff !important;
 }
 
+a.nav-link, .navbar-brand {
+  color: #f0f0f0 !important;
+}
+.nav-link:hover, .navbar-brand:hover {
+  color: #bb86fc !important;
+}
+
 i {
   display: inline-block;
   width: 30px;

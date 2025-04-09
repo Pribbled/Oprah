@@ -1,0 +1,88 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #7541b6;
+}
+
+  
+
+.navbar .nav-link {
+    color: #fff !important;
+  }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-image: url('https://wallpapercat.com/w/full/b/2/f/20724-3000x1854-desktop-hd-oprah-winfrey-background-image.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            color: #f0f0f0;
+            scroll-behavior: smooth;
+        }
+        .content {
+            padding: 60px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .section-title {
+            font-weight: 700;
+            color: #bb86fc;
+            margin-top: 40px;
+        }
+        .highlight {
+            color: #bb86fc;
+            font-weight: 500;
+        }
+        .info-box {
+            background: #2a2a2a;
+            border-left: 5px solid #bb86fc;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+        a.nav-link, .navbar-brand {
+            color: #f0f0f0 !important;
+        }
+        .nav-link:hover, .navbar-brand:hover {
+            color: #bb86fc !important;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: none;
+        }
+
+        .mask {
+            background-color: rgba(0, 0, 0, 0.6);
+            min-height: 100vh;
+            overflow-y:visible ;
+            padding: 120px 15px 60px;
+            margin: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px 20px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #4f1996;
+        }
+        tr:nth-child(even) {
+            background-color: #c480df;
+        }
